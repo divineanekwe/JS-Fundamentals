@@ -9,7 +9,7 @@ Once Node.js is installed, navigate to the root directory of this repository in 
 
 **Example:**
 
-node 0-javascript_is_amazing.js
+`node 0-javascript_is_amazing.js`
 
 
 ## Tasks
@@ -30,9 +30,10 @@ This script prints the string "JavaScript is amazing" to the console.
 
 **Example Usage:**
 
-divineanekwe@frontend:~/JS-Fundamentals$ node 0-javascript_is_amazing.js
-JavaScript is amazing
+divineanekwe@frontend:~/JS-Fundamentals$ `node 0-javascript_is_amazing.js`
+<br> JavaScript is amazing
 
+<br>
 
 ### 1. 3 languages
 
@@ -48,11 +49,12 @@ This script prints three distinct lines to the console, each declaring a languag
 
 **Example Usage:**
 
-divineanekwe@frontend:~/JS-Fundamentals$ node 1-multi_languages.js
-C is fun
-Python is cool
-JavaScript is amazing
+divineanekwe@frontend:~/JS-Fundamentals$ `node 1-multi_languages.js`
+<br> C is fun
+<br> Python is cool
+<br> JavaScript is amazing
 
+<br>
 
 ### 2. Arguments
 
@@ -70,13 +72,16 @@ This script prints a message to the console based on the number of arguments pas
 
 **Example Usage:**
 
-divineanekwe@frontend:~/JS-Fundamentals$ node 2-arguments.js
-No argument
-divineanekwe@frontend:~/JS-Fundamentals$ node 2-arguments.js Best
-Argument found
-divineanekwe@frontend:~/JS-Fundamentals$ node 2-arguments.js Best School
-Arguments found
+divineanekwe@frontend:~/JS-Fundamentals$ `node 2-arguments.js`
+<br> No argument
 
+divineanekwe@frontend:~/JS-Fundamentals$ `node 2-arguments.js Best`
+<br> Argument found
+
+divineanekwe@frontend:~/JS-Fundamentals$ `node 2-arguments.js Best School`
+<br> Arguments found
+
+<br>
 
 ### 3. Value of my argument
 
@@ -92,11 +97,13 @@ This script prints the first argument passed to it. If no arguments are provided
 
 **Example Usage:**
 
-divineanekwe@frontend:~/JS-Fundamentals$ node 3-value_argument.js
-No argument
-divineanekwe@frontend:~/JS-Fundamentals$ node 3-value_argument.js School
-School
+divineanekwe@frontend:~/JS-Fundamentals$ `node 3-value_argument.js`
+<br> No argument
 
+divineanekwe@frontend:~/JS-Fundamentals$ `node 3-value_argument.js School`
+<br> School
+
+<br>
 
 ### 4. Create a sentence
 
@@ -112,13 +119,16 @@ This script prints two arguments passed to it, formatted as " `<arg1>` is `<arg2
 
 **Example Usage:**
 
-divineanekwe@frontend:~/JS-Fundamentals$ node 4-concat.js c cool
-c is cool
-divineanekwe@frontend:~/JS-Fundamentals$ node 4-concat.js c
-c is undefined
-divineanekwe@frontend:~/JS-Fundamentals$ node 4-concat.js
-undefined is undefined
+divineanekwe@frontend:~/JS-Fundamentals$ `node 4-concat.js c cool`
+<br> c is cool
 
+divineanekwe@frontend:~/JS-Fundamentals$ `node 4-concat.js c`
+<br> c is undefined
+
+divineanekwe@frontend:~/JS-Fundamentals$ `node 4-concat.js`
+<br> undefined is undefined
+
+<br>
 
 ### 5. An Integer
 
@@ -134,17 +144,22 @@ This script prints "My number: `<integer>`" if the first argument can be convert
 
 **Example Usage:**
 
-divineanekwe@frontend:~/JS-Fundamentals$ node 5-to_integer.js
-Not a number
-divineanekwe@frontend:~/JS-Fundamentals$ node 5-to_integer.js 89
-My number: 89
-divineanekwe@frontend:~/JS-Fundamentals$ node 5-to_integer.js "89"
-My number: 89
-divineanekwe@frontend:~/JS-Fundamentals$ node 5-to_integer.js 89.89
-My number: 89
-divineanekwe@frontend:~/JS-Fundamentals$ node 5-to_integer.js School
-Not a number
+divineanekwe@frontend:~/JS-Fundamentals$ `node 5-to_integer.js`
+<br> Not a number
 
+divineanekwe@frontend:~/JS-Fundamentals$ `node 5-to_integer.js 89`
+<br> My number: 89
+
+divineanekwe@frontend:~/JS-Fundamentals$ `node 5-to_integer.js "89"`
+<br> My number: 89
+
+divineanekwe@frontend:~/JS-Fundamentals$ `node 5-to_integer.js 89.89`
+<br> My number: 89
+
+divineanekwe@frontend:~/JS-Fundamentals$ `node 5-to_integer.js School`
+<br> Not a number
+
+<br>
 
 ### 6. Loop to languages
 
@@ -164,11 +179,12 @@ This script prints three lines ("C is fun", "Python is cool", "JavaScript is ama
 
 **Example Usage:**
 
-divineanekwe@frontend:~/JS-Fundamentals$ node 6-multi_languages_loop.js
-C is fun
-Python is cool
-JavaScript is amazing
+divineanekwe@frontend:~/JS-Fundamentals$ `node 6-multi_languages_loop.js`
+<br> C is fun
+<br> Python is cool
+<br> JavaScript is amazing
 
+<br>
 
 ### 7. I love C
 
@@ -188,14 +204,18 @@ This script prints "C is fun" a specified number of times (`x`), where `x` is th
 
 **Example Usage:**
 
-divineanekwe@frontend:~/JS-Fundamentals$ node 7-multi_c.js 2
-C is fun
-C is fun
-divineanekwe@frontend:~/JS-Fundamentals$ node 7-multi_c.js
-Missing number of occurrences
-divineanekwe@frontend:~/JS-Fundamentals$ node 7-multi_c.js -3
+divineanekwe@frontend:~/JS-Fundamentals$ `node 7-multi_c.js 2`
+<br> C is fun
+<br> C is fun
 
-(No output for negative numbers as per example)
+divineanekwe@frontend:~/JS-Fundamentals$ `node 7-multi_c.js`
+<br> Missing number of occurrences
+
+divineanekwe@frontend:~/JS-Fundamentals$ `node 7-multi_c.js -3`
+<br>
+<br>(No output for negative numbers as per example)
+
+<br>
 
 ### 8. Square
 
@@ -215,23 +235,29 @@ This script prints a square of 'X' characters, where the size of the square is d
 
 **Example Usage:**
 
-divineanekwe@frontend:~/JS-Fundamentals$ node 8-square.js
-Missing size
-divineanekwe@frontend:~/JS-Fundamentals$ node 8-square.js School
-Missing size
-divineanekwe@frontend:~/JS-Fundamentals$ node 8-square.js 2
-XX
-XX
-divineanekwe@frontend:~/JS-Fundamentals$ node 8-square.js 6
-XXXXXX
-XXXXXX
-XXXXXX
-XXXXXX
-XXXXXX
-XXXXXX
-divineanekwe@frontend:~/JS-Fundamentals$ node 8-square.js -3
+divineanekwe@frontend:~/JS-Fundamentals$ `node 8-square.js`
+<br> Missing size
 
-(No output for negative numbers as per example)
+divineanekwe@frontend:~/JS-Fundamentals$ `node 8-square.js School`
+<br> Missing size
+
+divineanekwe@frontend:~/JS-Fundamentals$ `node 8-square.js 2`
+<br> XX
+<br> XX
+
+divineanekwe@frontend:~/JS-Fundamentals$ `node 8-square.js 6`
+<br> XXXXXX
+<br> XXXXXX
+<br> XXXXXX
+<br> XXXXXX
+<br> XXXXXX
+<br> XXXXXX
+
+divineanekwe@frontend:~/JS-Fundamentals$ `node 8-square.js -3`
+<br>
+<br> (No output for negative numbers as per example)
+
+<br>
 
 ### 9. Add
 
@@ -249,11 +275,14 @@ This script prints the addition of two integers passed as arguments. It defines 
 
 **Example Usage:**
 
-divineanekwe@frontend:~/JS-Fundamentals$ node 9-add.js
-NaN
-divineanekwe@frontend:~/JS-Fundamentals$ node 9-add.js 1
-NaN
-divineanekwe@frontend:~/JS-Fundamentals$ node 9-add.js 1 7
-8
-divineanekwe@frontend:~/JS-Fundamentals$ node 9-add.js 13 89
-102
+divineanekwe@frontend:~/JS-Fundamentals$ `node 9-add.js`
+<br> NaN
+
+divineanekwe@frontend:~/JS-Fundamentals$ `node 9-add.js 1`
+<br> NaN
+
+divineanekwe@frontend:~/JS-Fundamentals$ `node 9-add.js 1 7`
+<br> 8
+
+divineanekwe@frontend:~/JS-Fundamentals$ `node 9-add.js 13 89`
+<br> 102
