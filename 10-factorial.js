@@ -1,19 +1,17 @@
 const { argv } = require('node:process');
 
-let firstArgument = parseInt(argv[2]);
-
 function factorial(number) {
-	let factorial = number;
-	
-	if (Number.isNaN(number)){
-		console.log(1);
-	} else {
-		for (let i = number; i > 1; i--){
-			factorial *= i - 1;
-		}
-		
-		console.log(factorial);
+	if (Number.isNaN(number) || number < 0) {
+		return 1;
 	}
+
+	if (number === 0 || number === 1) {
+		return 1;
+	}
+
+	return number * factorial(number - 1);
 };
 
-factorial(firstArgument);
+let firstArgument = parseInt(argv[2]);
+
+console.log(factorial(firstArgument));
