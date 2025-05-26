@@ -2,7 +2,7 @@ const { argv } = require('node:process');
 
 let firstArgument = parseInt(argv[2]);
 
-const factorial = (number) => {
+function factorial(number) {
 	let factorial = number;
 	
 	if (Number.isNaN(number)){
