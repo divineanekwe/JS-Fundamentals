@@ -1,20 +1,9 @@
 const { argv } = require('node:process');
 
-count = 0;
-arguments = [];
+let firstArgument = argv[2];
 
-argv.forEach((val, index) => {
-	count++;
-	
-	if(count == 3){
-		arguments.push(val);
-	}
-});
-
-if(count < 3){
-	console.log('No argument');
+if(firstArgument != null){
+	console.log(firstArgument);
 } else{
-	arguments.forEach((value) => {
-		console.log(value);
-	});
+	console.log('No argument');
 }
