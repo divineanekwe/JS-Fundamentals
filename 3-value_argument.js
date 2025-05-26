@@ -6,7 +6,7 @@ arguments = [];
 argv.forEach((val, index) => {
 	count++;
 	
-	if(count > 2){
+	if(count == 3){
 		arguments.push(val);
 	}
 });
