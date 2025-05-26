@@ -7,6 +7,8 @@ argv.forEach((val, index) => {
 
 if(count < 3){
 	console.log('No argument');
-} else{
+} else if(count == 3){
 	console.log('Argument found');
+} else{
+	console.log('Arguments found');
 }
